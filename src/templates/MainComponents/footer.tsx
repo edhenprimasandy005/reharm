@@ -2,7 +2,7 @@
 import Logo from '@images/logo-light.png';
 import Image from 'next/image';
 import React from 'react';
-import { BsFillPhoneFill } from 'react-icons/Bs';
+import { IoMdPhonePortrait } from 'react-icons/io';
 import { IoMail } from 'react-icons/io5';
 
 import Button from '@/components/elements/button';
@@ -37,7 +37,7 @@ const Footer = () => {
                   Contact with us
                 </span>
                 <span className="grey-color inline-flex items-center gap-2 text-base">
-                  <BsFillPhoneFill /> +62 857 1760 5990
+                  <IoMdPhonePortrait /> +62 857 1760 5990
                 </span>
                 <span className="grey-color inline-flex items-center gap-2 text-base">
                   <IoMail /> info@reharm.com

@@ -3,7 +3,7 @@ import { useActions } from '@overmind/index';
 import Router from 'next/router';
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-import { BsFillShieldLockFill } from 'react-icons/Bs';
+import { IoIosLock } from 'react-icons/io';
 
 import AuthLayout from '@/templates/Auth';
 
@@ -53,7 +53,7 @@ const Login = () => {
             </label>
             <div className="relative">
               <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                <BsFillShieldLockFill color="#a0aec0" />
+                <IoIosLock color="#a0aec0" />
               </div>
               <input
                 type="password"

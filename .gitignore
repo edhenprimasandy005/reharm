@@ -48,4 +48,4 @@ local
 .vercel
 
 # prettier
-.prettierrc.js
+# .prettierrc.js

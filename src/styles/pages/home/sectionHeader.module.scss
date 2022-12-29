@@ -1,0 +1,20 @@
+@import '../../theme',
+        '../../helper';
+
+.setionHeader {
+  background-image: url('https://edhenprimasandy.sirv.com/reharm/wave-3.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  min-height: 500px;
+  margin-top: 4.5rem;
+}
+.stickyComponent {
+  margin-top: -8rem;
+  padding: 0rem 1rem;
+}
+@include mq($breakpoint-mobile-landscape) {
+  .stickyComponent {
+    margin-top: -5rem;
+  }
+}
